@@ -1,0 +1,59 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    .intro {
+        display: flex;
+        flex-direction: column;
+        .header {
+            display: flex;
+            flex-direction: row;
+            .name {
+
+            }
+            .nav-buttons {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+
+        .about {
+            display: flex;
+            flex-direction: row;
+            border: solid red 1px;
+            height: 500px;
+            .about-text {
+                display: flex;
+                flex-direction: column;
+                h2 {
+    
+                }
+                p {
+        
+                }
+            }
+            .image-me {
+                transform: scale(0.3);
+                margin-top: -285px;
+                margin-right: -300px;
+               
+                
+
+            }
+        }
+    }
+    .content {
+        .projects {
+
+        }
+        .hobbies {
+            .art {
+
+            }
+            .dance {
+
+            }
+
+        }
+
+    }
+}
